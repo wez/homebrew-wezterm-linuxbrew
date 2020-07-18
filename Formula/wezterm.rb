@@ -1,8 +1,12 @@
+# Note: if you are viewing this from the tap repo, this file is automatically
+# updated from:
+# https://github.com/wez/wezterm/blob/master/ci/wezterm-linuxbrew.rb.template
+# by automation in the wezterm repo.
 class Wezterm < Formula
   desc "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
   homepage "https://wezfurlong.org/wezterm/"
-  url "https://github.com/wez/wezterm/releases/download/20200620-160318-e00b076c/WezTerm-20200620-160318-e00b076c-Ubuntu16.04.AppImage"
-  sha256 "0ece46be9eb80b29cfea48331bf41823c7bce0eb06be978605e744a9e9fac78f"
+  url "https://github.com/wez/wezterm/releases/download/20200718-095447-d2315640/WezTerm-20200718-095447-d2315640-Ubuntu16.04.AppImage"
+  sha256 "a529c9ed18801bde73aa9c8871bcd213c0c72bbffcc382f988249dcb58fca648"
   head "https://github.com/wez/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu16.04.AppImage"
 
   def install
